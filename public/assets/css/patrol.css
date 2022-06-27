@@ -1,0 +1,634 @@
+/* WBI */
+/* Login
+1.button login tidak aktif
+2. button login aktif
+3. label text login dan password
+4. text header login kanan
+5. text header login kiri
+*/
+.btn-login-non {
+  /* buttonPrimaryBig */
+  /* Auto layout */
+  color: #757575;
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  height: 64px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 4px;
+  gap: 4px; */
+
+  /* width: 464px; */
+  /* height: 64px; */
+
+  /* Gray/300 */
+
+  /* background: #d1d1d1;
+  border-radius: 4px; */
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 2;
+  flex-grow: 0; */
+}
+.btn-login-akt {
+  /* buttonPrimaryBig */
+  /* Auto layout */
+  color: #ffffff;
+  background-color: #535687;
+  border-color: #535687;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  height: 64px;
+}
+.text-login {
+  width: 83px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray/800 */
+  color: #343434;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.text-form-login-satu {
+  /* WBI */
+
+  width: 100%;
+  height: 58px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  /* Gray/800 */
+
+  color: #343434;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.text-form-login-dua {
+  /* Walk by Inspections */
+  width: 135px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-left: 10px;
+  text-transform: uppercase;
+  /* Gray/800 */
+  color: #343434;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+/* halaman beranda awal
+1.header logo
+ */
+.header-tulisan-logo {
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 32px;
+  text-align: right;
+  line-height: 67px;
+}
+.header-btn-aktif {
+  /* Menu Navbar */
+  background-color: #353535;
+  border-color: #6c757d;
+  width: 140px;
+  height: 33px;
+  padding: 5px 12px;
+  margin-right: -14px;
+}
+.header-btn-tidak {
+  /* Menu Navbar */
+  background-color: ##1a1a1c;
+  border-color: #6c757d;
+  width: 140px;
+  height: 33px;
+  padding: 5px 12px;
+  margin-right: -14px;
+}
+
+.text-form-sub-judul {
+  color: #757575;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.kotak-satu {
+  height: 24px;
+  width: 24px;
+  background-color: #b04949;
+}
+.kotak-dua {
+  height: 24px;
+  width: 24px;
+  background-color: #a553b1;
+}
+.kotak-tiga {
+  height: 24px;
+  width: 24px;
+  background-color: #d28f51;
+}
+
+.tombol-aktif {
+  /* border-style: dashed;
+  background-color: #eaebfb;
+  margin-bottom: 15px;
+  margin-right: 1%; */
+  color: #535687;
+  background-color: #ffffff;
+  border-radius: 1px;
+  border-bottom: 2px solid #535687;
+  margin: 4px 2px;
+}
+.tombol-tidakaktif {
+  color: #757575;
+  border-style: dashed;
+  //background-color: #f1f1f1;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  //margin-right: 1%;
+  margin: 4px 2px;
+}
+.b-tombol-aktif {
+  /* background: #eaebfb; */
+  /* color: #535687;
+  border-radius: 1px;
+  border-bottom: 2px solid #535687;
+  margin: 4px 2px; */
+  color: #535687;
+  width: 180px;
+}
+.b-tombol-tidak-aktif {
+  /* background: #eaebfb; */
+  color: #535687;
+  width: 180px;
+  //border-radius: 8px;
+}
+/* 
+modal action form input 
+*/
+.modal-action-form {
+  position: fixed;
+  align-items: center;
+
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+.modal-full-form {
+  width: 98%;
+  max-width: none;
+}
+.modal-dialog-form {
+  position: relative;
+  width: auto;
+  margin: 0.3rem;
+  pointer-events: none;
+}
+.text-form-judul {
+  color: #343434;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+.card-kiri-satu {
+  /* color: #535687;
+  background-color: #f7f7fd;
+  border-color: #d9dbff; */
+  /* General information */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  //  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  width: 270px;
+  height: 383px;
+
+  background: #f7f7fd;
+  border: 1px solid #d9dbff;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.card-kiri-dua {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 16px;
+
+  width: 270px;
+  height: 344px;
+
+  background: #fbf7e4;
+  border: 1px solid #f5d1a7;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.card-kiri-tulisan-satu {
+  /* Condition */
+
+  //width: 64px;
+  height: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Gray/500 */
+
+  color: #757575;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.card-kiri-tulisan-dua {
+  /* Frame 753 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 4px;
+  line-height: 1.5;
+  width: 189px;
+  height: 30px;
+
+  background: #ffcbcb;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.card-kiri-tulisan-tiga {
+  /* 22/05/2022 */
+
+  width: 82px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Gray/800 */
+
+  color: #343434;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.card-kiri-dua-tulisan-satu {
+  /* Checklist Notes */
+
+  width: 130px;
+  height: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #bd6626;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.card-kiri-dua-tulisan-dua {
+  width: 222px;
+  height: 68px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* Gray/800 */
+
+  color: #343434;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+//form kanan
+.card-kanan-satu {
+  /* Frame 824 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  width: 882px;
+  height: 560px;
+
+  /* Gray/200 */
+
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.card-kanan-dua {
+  /* Frame 805 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 405px;
+  height: 580px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.card-kanan-tiga {
+  /* Frame 812 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  isolation: isolate;
+
+  width: 405px;
+  height: 275px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.card-kanan-empat {
+  /* Frame 812 */
+
+  /* Auto layout */
+
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  isolation: isolate;
+
+  width: 405px;
+  height: 275px;
+
+  justify-content: flex-end;
+  padding: 0.75rem;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+//text form
+.text-action-form-input {
+  /* width: 405px;
+  height: 17px; */
+
+  font-family: "Inter";
+  font-style: normal;
+}
+
+//logo
+.logo-patrol {
+  display: block;
+  line-height: 70px;
+  margin-left: 90px;
+}
+.logo-patrol span.logo-lg-patrol {
+  display: block;
+}
+.logo-light-patrol {
+  display: block;
+}
+/* 1.tabel waiting for assint tidak ada data 
+2.tulisan biasa
+3. tulisan tebal
+4. icon
+5. button
+6.header tabel
+ */
+.table-no-data {
+  margin-left: auto;
+  margin-right: auto;
+  height: 855px;
+  text-align: center;
+}
+.table-no-data-tulisan {
+  /* width: 390px;
+height: 44px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  text-align: center;
+
+  /* Gray/500 */
+
+  color: #757575;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.table-no-data-bolt {
+  /* text-align: center;
+  width: 103px;
+  height: 24px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #505050;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.table-no-data-icon {
+  width: 53.33px;
+  height: 53.33px;
+  border-radius: 50%;
+}
+.table-no-data-btn {
+  /* Frame 870 */
+
+  /* Auto layout */
+
+  //  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+
+  width: 171px;
+  height: 48px;
+
+  background: #535687;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+//header tabel
+.font-tabel-satu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Gray/500 */
+
+  color: #757575;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+//isi tabel
+.font-tabel-isidata {
+  /* Need Action */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px 12px 16px;
+  gap: 48px;
+
+  width: 1152px;
+  height: 62px;
+
+  background: #f7f7fd;
+  border-radius: 1px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 0;
+}
