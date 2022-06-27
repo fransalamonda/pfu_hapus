@@ -310,10 +310,10 @@
                                     <div class="col-lg-12 card-kanan-empat">
                                         <div class="modal-footer">
 
-                                            <a class="btn btn-secondary waves-effect btnCancel" id="btnCancel">
+                                            <button type="" class="btn btn-cancel-action btnCancel" id="btnCancel">
                                                 <!-- <i class="fas fa-times"></i> -->
                                                 &nbsp;Cancel
-                                            </a>
+                                            </button>
                                             <button type="submit" class="btn " style="color: #F7F7FD; background-color: #535687;">&nbsp;Submit</button>
                                         </div>
                                     </div>
